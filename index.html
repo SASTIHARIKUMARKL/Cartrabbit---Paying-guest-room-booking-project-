@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHK Paying Guest Room Booking</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+</head>
+<body>
+    <header> <!--header navigation start here-->
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="PG Booking Logo">
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#customer">Customer</a></li>
+                <li><a href="#owner">Owner</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home"> <!--Home page section start here--> 
+            <h1>Welcome to the Paying Guest Booking System</h1>
+            <p>Find the best paying guest accommodations in your preferred location.</p>
+            <div id="pgLocations">
+                <h2>Available PG Locations</h2>
+                <ul>
+                    <li>Coimbatore</li>
+                    <li>Bangalore</li>
+                    <li>Chennai</li>
+                    <li>Hyderabad</li>
+                    <li>Mumbai</li>
+                </ul>
+            </div>
+        </section>
+        <section id="customer"> <!--customer room booking section--> 
+            <h2>Customer Section</h2>
+            <div id="bookings">
+                <h3>Available Rooms</h3>
+                <ul id="roomList"></ul>
+            </div>
+            <div id="bookingFormSection"> 
+                <h3>Book a Room</h3>
+                <form id="bookingForm">
+                    <input type="text" id="customerName" placeholder="Customer Name" required>
+                    <input type="text" id="roomNameBooking" placeholder="Room Name" required>
+                    <input type="date" id="startDate" required>
+                    <input type="date" id="endDate" required>
+                    <div class="term">
+                        <input type="checkbox" id="termsCheckbox" required>
+                        <label for="termsCheckbox">I agree to the <a href="#">terms and conditions</a></label>
+                    </div>
+                    <button type="submit">Book Room</button>
+                </form>
+            </div>
+        </section>
+        <section id="owner"> <!--owner property register section--> 
+            <h2>Owner Section</h2>
+            <div id="registration">
+                <h3>Register Property</h3>
+                <form id="registrationForm">
+                    <input type="text" id="ownerName" placeholder="Owner Name" required>
+                    <input type="text" id="propertyName" placeholder="Property Name" required>
+                    <input type="text" id="roomName" placeholder="Room Name" required>
+                    <input type="number" id="floorSize" placeholder="Floor Size (sq ft)" required>
+                    <input type="number" id="numBeds" placeholder="Number of Beds" required>
+                    <input type="text" id="amenities" placeholder="Amenities" required>
+                    <button type="submit">Register Room</button>
+                </form>
+            </div>
+        </section>
+        <section id="about"> <!--about section--> 
+            <h2>About Us</h2> 
+            <p>- Welcome to our Paying Guest Booking System! We offer top-notch PG accommodations across available location cities, providing a home away from home experience for our guests.</p>
+            <p>- Our mission is to make finding and booking PG accommodations easy and hassle-free. Whether you are a student, a professional, or just someone in need of a temporary place to stay, we have the perfect room for you.</p>
+            <p>- Our PGs are equipped with modern amenities, comfortable living spaces, and are located in safe and convenient areas. We strive to provide excellent customer service and ensure that our guests have a pleasant stay.</p>
+            <p>- We look forward to welcoming you to one of our properties</p>
+            <div class="image">
+                <img src="img2.jpg" alt="image">
+                <img src="img1.jpg" alt="image">
+            </div>
+        </section>
+        <section id="contact"> <!--contact section--> 
+            <h2>Contact Us</h2> 
+            <p>If you have any questions, please contact us at <a href="">shk@pgbooking.com</a>.</p>
+        </section>
+    </main>
+    <footer> <!--footer section-->
+        <h4>SHK Group Paying Guest Room &copy; 2024</h4>
+        <h5>Created by Sasti HariKumar KL -<a href="">sastiharikumar@gmail.com</a></h5>
+    </footer>
+</body>
+</html>

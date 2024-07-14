@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 16px 0;
+}
+.logo img {
+    height: 60px;
+    width: 280px;
+    margin-left: 20px;
+    margin-top: 16px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 16px;
+    border: none;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: rgba(247, 124, 124, 0.568);
+}
+
+main {
+    padding: 32px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+section {
+    margin-bottom: 32px;
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input, button {
+    display: block;
+    margin: 8px 0;
+    padding: 8px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 16px;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+li span {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#pgLocations ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#pgLocations ul li {
+    flex: 1 1 150px;
+    margin: 16px;
+    background-color: #e7e7e7;
+    padding: 16px;
+    text-align: center;
+    border-radius: 5px;
+}
+#pgLocations ul li:hover{
+    transform: scale(1.2);
+    background-color: rgba(253, 179, 179, 0.568);
+}
+footer{
+    background-color: #333;
+    padding: 16px 0;
+}
+h4,h5{
+    margin-left: 20px;
+    color: white;
+}
+.image img{
+    height: 180px;
+    width: 200px;
+    margin-left: 20px;
+}
+#contact a{
+    text-decoration: none;
+    color: black;
+}
+.term{
+    display: inline;
+}
+footer h5 a{
+    text-decoration: none;
+    color: white;
+}
